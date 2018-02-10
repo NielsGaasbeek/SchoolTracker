@@ -1,0 +1,10 @@
+D:\Persoonlijk\Projects\SchoolTracker\SchoolTracker\obj\Debug\SchoolTracker.csprojResolveAssemblyReference.cache
+D:\Persoonlijk\Projects\SchoolTracker\SchoolTracker\obj\Debug\SchoolTracker.Form1.resources
+D:\Persoonlijk\Projects\SchoolTracker\SchoolTracker\obj\Debug\SchoolTracker.Properties.Resources.resources
+D:\Persoonlijk\Projects\SchoolTracker\SchoolTracker\obj\Debug\SchoolTracker.csproj.GenerateResource.Cache
+D:\Persoonlijk\Projects\SchoolTracker\SchoolTracker\obj\Debug\SchoolTracker.csproj.CoreCompileInputs.cache
+D:\Persoonlijk\Projects\SchoolTracker\SchoolTracker\bin\Debug\SchoolTracker.exe.config
+D:\Persoonlijk\Projects\SchoolTracker\SchoolTracker\bin\Debug\SchoolTracker.exe
+D:\Persoonlijk\Projects\SchoolTracker\SchoolTracker\bin\Debug\SchoolTracker.pdb
+D:\Persoonlijk\Projects\SchoolTracker\SchoolTracker\obj\Debug\SchoolTracker.exe
+D:\Persoonlijk\Projects\SchoolTracker\SchoolTracker\obj\Debug\SchoolTracker.pdb

@@ -1,0 +1,6 @@
+Date;05/02/2018 21:01:19,Monday-Week;6-Time;00:21:56-Activity;Overig//
+Date;06/02/2018 21:01:19,Tuesday-Week;6-Time;01:45:00-Activity;College//
+Date;08/02/2018 12:24:28,Thursday-Week;6-Time;00:55:00-Activity;Opgaven maken//
+Date;08/02/2018 12:24:28,Thursday-Week;6-Time;01:45:00-Activity;College//
+Date;09/02/2018 17:57:57,Friday-Week;6-Time;01:07:34.7764160-Activity;Practicum werken//
+Date;09/02/2018 20:37:43,Friday-Week;6-Time;02:14:41.4167640-Activity;Practicum werken//
