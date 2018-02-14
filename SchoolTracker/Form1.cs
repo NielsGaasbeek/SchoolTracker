@@ -35,6 +35,12 @@ namespace SchoolTracker
 
         private void startButton_Click(object sender, EventArgs e)
         {
+            if ((string)actionSelector.SelectedItem == "College")
+            {
+                AddCollege();
+                return;
+            }
+
             clicked = !clicked;
             startButton.Text = GetMessage(clicked);
 
@@ -77,13 +83,14 @@ namespace SchoolTracker
             }
         }
 
+        Calendar cal = DateTimeFormatInfo.CurrentInfo.Calendar;
+
         void StopTimer()
         {
             DateTime endTime = DateTime.Now;
 
             TimeSpan time = endTime.Subtract(startTime);
 
-            Calendar cal = DateTimeFormatInfo.CurrentInfo.Calendar;
             int curWeek = cal.GetWeekOfYear(startTime, DateTimeFormatInfo.CurrentInfo.CalendarWeekRule, DateTimeFormatInfo.CurrentInfo.FirstDayOfWeek);
 
             currentSession = $"Date;{startTime},{startTime.DayOfWeek}-Week;{curWeek}-Time;{time}-Activity;{currentAction}//";
@@ -93,6 +100,16 @@ namespace SchoolTracker
             using (StreamWriter sw = new StreamWriter($"../../data/{curCourse}.txt", true))
                 sw.WriteLine(currentSession);
 
+        }
+
+        void AddCollege()
+        {
+            DateTime today = DateTime.Now;
+            int curWeek = cal.GetWeekOfYear(today, DateTimeFormatInfo.CurrentInfo.CalendarWeekRule, DateTimeFormatInfo.CurrentInfo.FirstDayOfWeek);
+            currentSession = $"Date;{today},{today.DayOfWeek}-Week;{curWeek}-Time;01:45:00-Activity;College//";
+
+            using (StreamWriter sw = new StreamWriter($"../../data/{curCourse}.txt", true))
+                sw.WriteLine(currentSession);
         }
 
         private void addCourseButton_Click(object sender, EventArgs e)
@@ -120,6 +137,8 @@ namespace SchoolTracker
         {
             if (inProgress)
                 StopTimer();
+
+            curCourse = (string)dropDown.SelectedItem;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -134,6 +153,11 @@ namespace SchoolTracker
             string curAction = (string)actionSelector.SelectedItem;
 
             currentAction = curAction;
+
+            if (curAction == "College")
+                startButton.Text = "Add College";
+            else
+                startButton.Text = GetMessage(clicked);
         }
     }
 }
