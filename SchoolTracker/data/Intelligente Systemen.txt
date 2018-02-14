@@ -9,3 +9,4 @@ Date;10/02/2018 11:36:15,Saturday-Week;6-Time;00:40:47.0656351-Activity;Opgaven 
 Date;11/02/2018 16:50:00,Sunday-Week;6-Time;00:32:17.3134614-Activity;Practicum werken//
 Date;11/02/2018 22:28:56,Sunday-Week;6-Time;00:12:06.6877943-Activity;Lezen//
 Date;11/02/2018 22:41:10,Sunday-Week;6-Time;00:40:57.9830062-Activity;Opgaven maken//
+Date;12/02/2018 14:22:32,Monday-Week;7-Time;00:56:42.5627288-Activity;Opgaven maken//
