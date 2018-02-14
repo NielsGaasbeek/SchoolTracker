@@ -1,2 +1,4 @@
 Date;05/02/2018 21:55:48,Monday-Week;6-Time;01:13:51-Activity;Lezen//
 Date;07/02/2018 21:55:48,Wednesday-Week;6-Time;06:00:00-Activity;College//
+Date;14/02/2018 21:17:33,Wednesday-Week;7-Time;03:00:00-Activity;College//
+
